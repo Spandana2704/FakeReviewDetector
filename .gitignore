@@ -1,2 +1,27 @@
+# Ignore datasets
 *.json
+*.csv
+*.zip
+
+# Ignore notebook checkpoints
 .ipynb_checkpoints/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore large model files
+*.pkl
+*.joblib
+
+# Ignore environment folders
+venv/
+.env/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+*.log
